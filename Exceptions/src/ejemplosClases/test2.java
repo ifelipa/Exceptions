@@ -3,7 +3,7 @@ package ejemplosClases;
 public class test2 {
 
 	public static void main(String[] args) throws Exception {
-				
+		
 		metodo1();
 	}
 	
@@ -22,6 +22,7 @@ public class test2 {
 		} catch (Exception e) {
 			System.out.println("4");
 			throw e;
+			//new CounterException("Error");
 		} finally {
 			System.out.println("5");
 		}
