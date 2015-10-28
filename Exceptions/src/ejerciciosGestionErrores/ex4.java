@@ -5,14 +5,15 @@ public class ex4 {
 	public static void main(String[] args) {
 				
 		Persona x= new Persona();
-		
-		
-		x.setEdat("asdsad");
-		
+		try {
+			x.setEdat(-10);
+			System.out.println("ejecuta 1");
+		} catch (IllegalArgumentException e) {
+			System.out.println("Error en el argumento. FUERA DE RANGO");
+			e.printStackTrace();
+		}
+		System.out.println("ejecuta 2");
 	}
-	
-	
-	
 	
 	
 	//Clase Persona
@@ -20,7 +21,13 @@ public class ex4 {
 	    private int edat;
 	    
 	    public void setEdat(int edat) {
-	        this.edat = edat;
+
+	    	if (edat< 0 || edat > 110){
+	    		throw new IllegalArgumentException();
+	    		
+	    	}else{
+	    		this.edat = edat;
+	    	}
 	    }
 	    
 	}
