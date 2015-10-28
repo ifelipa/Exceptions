@@ -21,6 +21,8 @@ public class ex2 {
 			}
 			System.out.println("2");
 		}
+		
+		System.out.println("hola, sigue despues de encontrar el error");
 	}
 
 	private static void cargar() throws SecurityException, IOException {
