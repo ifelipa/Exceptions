@@ -51,7 +51,6 @@ public class NodeList {
 			if (element == null)
 				throw new AlertaNull("Error: no acepta valor null");
 			this.element = element;
-
 		}
 
 		// Getter and Setters
@@ -75,7 +74,7 @@ public class NodeList {
 
 		public void setSiguiente(Node siguiente) {
 			if (siguiente == null)
-				throw new AlertaNull("Error: no hay siguiente");
+				throw new AlertaNull("Error: no asigana null hay siguiente");
 			this.siguiente = siguiente;
 		}
 	}

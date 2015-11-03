@@ -14,14 +14,13 @@ public class ex2 {
 			System.out.println("1");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			// e.printStackTrace();
 			if (e.getClass().getName() == "java.io.FileNotFoundException") {
 				System.out.println("fichero no encontrado");
-
 			}
 			System.out.println("2");
 		}
-		
+
 		System.out.println("hola, sigue despues de encontrar el error");
 	}
 
