@@ -3,16 +3,17 @@ package ejerciciosGestionErrores;
 public class MainFunciones {
 
 	public static void main(String[] args) {
-		try {
-			funcion1();
-			System.out.println("Main llama f1");
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			System.out.println("Catch en main");
-			e.printStackTrace();
-		} finally {
-			System.out.println("Fin");
-		}
+		funcion1();
+//		try {
+//			funcion1();
+//			System.out.println("Main llama f1");
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			System.out.println("Catch en main");
+//			e.printStackTrace();
+//		} finally {
+//			System.out.println("Fin");
+//		}
 		System.out.println("final programa");
 
 	}
@@ -29,15 +30,15 @@ public class MainFunciones {
 	}
 
 	private static void funcion2() {
-		 funcion3();
+	//	 funcion3();
 
-//		try {
-//			funcion3();
-//			System.out.println("f2 llama f3");
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			System.out.println("Catch en funcion2");
-//		}
+		try {
+			funcion3();
+			System.out.println("f2 llama f3");
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Catch en funcion2");
+		}
 
 	}
 
