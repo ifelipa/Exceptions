@@ -1,4 +1,4 @@
-package bla;
+package SolExamen;
 
 public class Empleat extends Persona {
 	String carrec;

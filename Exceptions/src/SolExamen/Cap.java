@@ -1,4 +1,4 @@
-package bla;
+package SolExamen;
 
 public class Cap extends Empleat {
 	Double bonus;
