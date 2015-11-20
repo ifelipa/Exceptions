@@ -7,7 +7,7 @@ import org.w3c.dom.ranges.RangeException;
 public class Main {
 
 	public static void main(String[] args) {
-		Empleat emp1 = new Empleat("nom1", "cogn1", "carrec1", 680.40);
+		Empleat emp1 = new Empleat("nom1", "cogn1", "carrec1", 18000.0);
 		Empleat emp2 = new Empleat("nom2", "cogn2", "carrec2", 680.40);
 		Empleat emp3 = new Empleat("nom3", "cogn3", "carrec3", 680.40);
 		Empleat emp4 = new Empleat("nom4", "cogn4", "carrec4", 680.40);
